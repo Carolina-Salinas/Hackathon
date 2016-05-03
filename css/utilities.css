@@ -8,7 +8,7 @@
 	src: url(../fonts/LatoHeavy.ttf);
 }
 @font-face{
-	font-family: Latolight ;
+	font-family:Latolight ;
 	src: url(../fonts/Latolight.ttf);
 }
 @font-face{
@@ -31,31 +31,6 @@
 .pb-5{
 	padding-bottom: 5%;
 }
-.pb-1{
-	padding-bottom: 2%:;
-}
-.pl-5{
-	padding-left: 5%;
-}
-.pl-10{
-	padding-left: 10%;
-}
-.pr-10{
-	padding-right: 10%;
-}
-.pr-07{
-	padding-right: 75%;
-}
-.pl-25{
-	padding-left: 25%;
-	padding-right: 25%; 
-}
-.pt-10{
-	padding-top: 12%;
-}
-.pd-5{
-	padding: 5%;
-}
 .mg-0{
 	margin: 0;
 }
@@ -65,26 +40,38 @@
 .lh{
 	line-height: 1.5;
 }
-.text-ladrillo{
+.text-center{
 	text-align: center;
 }
 .text-left{
 	text-align: left;
 }
-.text-humo{
-	color:#c2d8c8;
-}
 .text-white{
 	color: white;
 }
-.text-gray{
-	color: rgb(83, 88, 95);
+.cafe {
+	color:#514134;
 }
-.text-bluemarine{
-	background-color: #08111C;
+.cafe-claro{
+	color: #84623f;
 }
-.text-blue{
- 	color: #192951;
+.gris{
+	color: #D1CBB2;
+}
+.ladrillo{
+ color: #CC6635;
+}
+.naranja{
+	color: #F29E21;
+}
+.lima {
+	color: #E4E657;
+}
+.limon {
+	color: #A6C746
+}
+.verde{
+	color: #61b380;
 }
 .a-none-decoration{
 	text-decoration: none;
