@@ -1,0 +1,41 @@
+ul>li {
+	list-style: none;
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+}
+.redes {
+	position: absolute;
+	top: 0;
+	right: 2%;
+	width: 3%;
+}
+.fb {
+	width: 100%;
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+	opacity: 0.5;
+	position: absolute;
+}
+.logo {
+	width: 9%;
+	position: absolute;
+	top: 15px;
+	left: 44.3%;
+	border: 3px solid #A6C746;
+	border-radius: 100%;
+
+}
+.navbar {
+	border: 2px solid #A6C746;
+	width: 100%;
+	margin-top: 50px;
+
+}
+.letra-menu {
+	padding: 5px 30px;
+	font-family: franklingGothicDemi;
+	font-size: 25px;
+	}
