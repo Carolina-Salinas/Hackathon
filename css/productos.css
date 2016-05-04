@@ -1,0 +1,36 @@
+
+.efectodoble {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: 20px auto;
+}
+
+.efectodoble img {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	transition: opacity 1s ease-in-out;
+}
+
+.efectodoble img.top:hover {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}
+.flex-container{
+	max-width:100%;
+	width:90%;
+	list-style-type:none;
+	margin:0 auto;
+	padding:30px;
+	margin-top: 50px;
+	/*background-color:#E4E657;*/
+	justify-content: space-around;
+	
+	/*Flexbox setup*/
+	display: flex;
+	border-radius: 20px solid #CC6635;
+}
+
