@@ -1,11 +1,31 @@
 body {
 	background-color: #D1CBB2;
 }
-.hermano {
+.imagen {
+	position: absolute;
 	width: 30%;
-	align: center;
-	margin: 150px 0px;
+	top: 150px;
+	left: 435px;
 }
 .foto-hermano {
-	width: 100%;
+	max-width: 100%;
+	border-radius: 15px;
 }
+.resena1 {
+	width: 17%;
+	position: absolute;
+	top: 230px;
+	left: 160px;
+
+}
+.resena2 {
+	width: 17%;
+	position: absolute;
+	top: 230px;
+	right: 190px;
+}
+.marco {
+	width: 25%;
+	position: absolute;
+	left: 80px;
+	top: 150px;}
