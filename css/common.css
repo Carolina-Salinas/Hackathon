@@ -19,7 +19,7 @@ a {
     height: 120px;
     position: absolute;
 }
-#slider { position: relative; z-index: 5; float: left;}
+#slider { position: relative; z-index: 5; float: left;height: 699px;}
 
 .redes {
 	position: absolute;

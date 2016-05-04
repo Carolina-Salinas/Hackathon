@@ -4,20 +4,60 @@
 	<favicon></favicon>
 	<title>Akakau</title>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="swiper.min.css">
 	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
 	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
 	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<style>
+    html, body {
+        position: relative;
+        height: 100%;
+    }
+    body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 100%;
+        
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+    </style>
+</head>
 </head>
 <body>
-	<div class="container-fluid">
-	<header>
-		<div class="redes">
-		<a href="https://www.facebook.com/Akakau-149378065212695"><img class="fb" src="img/facebook.png"></a>
-		</div>
-		<nav>
+	<div class="container-fluid">   
+	<header id="arriba">
+		
+	<nav>
 		<div>
-		<ul class="text-center navbar">
+			<div class="fondo-claro"></div>
+			<ul class="text-center navbar">
 			<li class="letra-menu"><a class="cafe" href="">Cacao</a></li>
 			<li class="letra-menu"><a class="cafe" href="">Nosotros</a></li>
 			<li class="letra-menu"><a class="cafe" href="">Productos</a></li>
@@ -33,7 +73,43 @@
 			</ul>
 		</div>
 		</nav>
+		<div class="redes">
+		<a href="https://www.facebook.com/Akakau-149378065212695"><img class="fb" src="img/facebook.png"></a>
+		</div>
 	</header>
+	 <!-- Swiper -->
+    <div id="slider" class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img class="img-slider" src="img/trufasakakao.jpg"></div>
+            <div class="swiper-slide"><img class="img-slider" src="img/crepefresauva.jpg"></div>
+            <div class="swiper-slide"><img class="img-slider" src="img/taza.jpg"></div>
+            <div class="swiper-slide"><img class="img-slider" src="img/cracker.jpg"></div>
+            <div class="swiper-slide"><img class="img-slider" src="img/eleanor.jpg"></div>
+                     
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+        paginationClickable: true,
+        spaceBetween: 30,
+        centeredSlides: true,
+        autoplay: 2500,
+        autoplayDisableOnInteraction: false
+    });
+    </script>
 	</div>
 </body>
 </html>
