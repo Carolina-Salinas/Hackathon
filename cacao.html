@@ -1,79 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <title>Swiper demo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-
-    <!-- Link Swiper's CSS -->
-    <link rel="stylesheet" href="../dist/css/swiper.min.css">
-
-    <!-- Demo styles -->
-    <style>
-    html, body {
-        position: relative;
-        height: 100%;
-    }
-    body {
-        background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-        font-size: 14px;
-        color:#000;
-        margin: 0;
-        padding: 0;
-    }
-    .swiper-container {
-        width: 100%;
-        height: 100%;
-    }
-    .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
-    }
-    </style>
+	<favicon></favicon>
+	<title>cacao</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+	<link rel="stylesheet" type="text/css" href="css/utilities.css">
+	<link rel="stylesheet" type="text/css" href="css/cacao.css">
 </head>
 <body>
-    <!-- Swiper -->
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide">Slide 1</div>
-            <div class="swiper-slide">Slide 2</div>
-            <div class="swiper-slide">Slide 3</div>
-            <div class="swiper-slide">Slide 4</div>
-            <div class="swiper-slide">Slide 5</div>
-            <div class="swiper-slide">Slide 6</div>
-            <div class="swiper-slide">Slide 7</div>
-            <div class="swiper-slide">Slide 8</div>
-            <div class="swiper-slide">Slide 9</div>
-            <div class="swiper-slide">Slide 10</div>
-        </div>
-        <!-- Add Pagination -->
-        <div class="swiper-pagination"></div>
-    </div>
+<body>
+	<div class="container">
+	<!--inicio cacao-->
+		<section id="cacao">
+			<div class="first text-center cafe">
+			<div class="row">
+				<ul class="flex-container">
+					<li class="medio"><span><h2>Historia del cacao</h2>
+					<p>Los Aztecas creían que el Dios Quetzacoatl, serpiente emplumada y jardinero del paraiso trajo del cielo las semillas de cacao y enseñó como cultivar el árbol.
+					Las culturas Mesoamericanas antiguas usaban el cacao como moneda y bebida ritual.
+					El cacao, tan valioso como el oro y las gemas fue representado en las pinturas Aztecas siendo presentado como tributo al emperador y ofrendado a los muertos.
+					En los últimos años se ha venido dando el boom del cacao en el Perú.Y no es difícil imaginar que el Perú tiene muchas ventajas con respecto a otros países, somos el segundo productor orgánico a nivel mundial, tenemos el 70% de la variedad existente en nuestro planeta, ya ha sido declarado como patrimonio natural de la nación y nuestro crecimiento es del 600% comparado con el año 2006.
+					El día del cacao y chocolate es el 1ro de octubre. Y es que el cacao no solo es chocolate….es mucho mas…</p></span>
+					</li>
+					<li><img src="img/cacao/mapa.jpg"></li>
+				</ul>
+			</div>
+			<div class="row">
+				<ul class="flex-container">
+					<li><img src="img/cacao/delosdioses.jpg"></li>
+					<li class="medio"><h2>Alimento de los Dioses</h2>
+					<p>La materia prima que utilizamos proviene de nuestra finca de Cacao en Pucallpa, Ucayali,donde es tratada <b>orgánicamente</b> desde la semilla y con rigurosa CALIDAD en la cosecha,certificando nuestros cultivos de Cacao al <b>100% libre de químicos</b></p>
+					</li>
+					</ul>
+			</div>
+			<div class="row">
+				<ul class="flex-container">
+					<li class="medio"><h2>Del Cacao al Chocolate</h2>
+					<p>La pasta de cacao es resultado de prensar las semillas de cacao; de ella se desprenden los siguientes elementos beneficiosos para nuestro organismo:
+					Serotonina: regulador del sueño, neurotransmisor anti-estrés y anti-depresivo
+					TheoBromina: vigorizante y tonificante del organismo
+					Feniletilamina: relacionado con el amor, se le conoce como el "químico del amor"
+					Anandamida: neurotransmisor de sensaciones positivas
+					Triptófano: aminoácido esencial que se convierte en serotonina y melatonina
+					Hierro, Zinc, Manganeso, Cobre, y Magnesio.
+					Propiedades
+					Refuerza el sistema cardíaco
+					Reduce la presión arterial e impide que la sangre se coagule
+					Relaja el sistema nervioso y los músculos
+					Favorece el sueño
+					Ayuda a regular el azúcar en la sangre
+					Previene el envejecimiento prematuro</p>
+					</li>
+					<li><img src="img/cacao/historia.jpg"></li>
+					</ul>
+				
+				</div>
+			</div> 
+			<!--fin cacao--> 
+			
 
-    <!-- Swiper JS -->
-    <script src="../dist/js/swiper.min.js"></script>
 
-    <!-- Initialize Swiper -->
-    <script>
-    var swiper = new Swiper('.swiper-container', {
-        pagination: '.swiper-pagination',
-        paginationClickable: true
-    });
-    </script>
+	
+		
+		</section>
+	</div>
 </body>
 </html>
