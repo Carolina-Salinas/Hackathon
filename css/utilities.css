@@ -1,23 +1,14 @@
-/*Global*/
-*{
-	font-family: "Latolight";
-}
-
 @font-face{
-	font-family: LatoHeavy;
-	src: url(../fonts/LatoHeavy.ttf);
+	font-family: franklinGothicBook;
+	src: url(../fonts/FRABK.ttf);
 }
 @font-face{
-	font-family:Latolight ;
-	src: url(../fonts/Latolight.ttf);
+	font-family:franklinGothicDemi;
+	src: url(../fonts/Franklin-Gothic-Demi-Cond-Regular.ttf);
 }
 @font-face{
-	font-family: DolceVita;
-	src: url(../fonts/DolceVita.ttf);
-}
-@font-face{
-	font-family: Neoteric-Bold;
-	src: url(../fonts/Neoteric-Bold.ttf);
+	font-family: Monofur;
+	src: url(../fonts/monof55.ttf);
 }
 
 /* Shortcuts */
@@ -59,7 +50,7 @@
 	color: #D1CBB2;
 }
 .ladrillo{
- color: #CC6635;
+ 	color: #CC6635;
 }
 .naranja{
 	color: #F29E21;
@@ -68,7 +59,7 @@
 	color: #E4E657;
 }
 .limon {
-	color: #A6C746
+	color: #A6C746;
 }
 .verde{
 	color: #61b380;
