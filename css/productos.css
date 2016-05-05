@@ -1,0 +1,69 @@
+ *{
+	outline:1px solid rgba(255,0,0,0.3);
+} */
+
+body{
+	background-color: #E4E657;
+}
+
+.bar{font-family: franklinGothicBook;
+	font-size: 60px; 
+	margin-top: 120px;
+	padding: 15px;
+}
+#productos{background-color: #D1CBB2;
+	margin-bottom: 20%;
+}
+
+.marck, .marck1{
+	width: 35%;
+	height: 35%;
+	text-align: center;
+}
+.mark{
+	position: absolute;
+	top: 15%;
+
+
+}
+.efectodoble {
+	position: relative;
+	height: 300px;
+	width: 350px;
+	margin: 0 auto;
+}
+
+.efectodoble img {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #CC6635;
+	transition: opacity 1s ease-in-out;
+	margin: 0 auto;
+}
+
+.efectodoble img.top:hover {
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}
+.flex-container{
+	max-width:100%;
+	width:90%;
+	list-style-type:none;
+	margin:0 auto;
+	padding:20px;
+	/*background-color:#E4E657;*/
+	justify-content: space-around;
+	
+	/*Flexbox setup*/
+	display: flex;
+	border-radius: 20px solid #CC6635;
+}
+.true{
+	margin: 0;
+	font-family: franklinGothicBook;
+	font-size: 60px;
+	padding-bottom: 15px;
+}
