@@ -1,11 +1,14 @@
  *{
-	outline:1px solid rgba(255,0,0,0.3);
+	outline:1px solid rgba(255,0,0,0.1);
 } */
 
 body{
 	background-color: #E4E657;
 }
-
+.fondo{
+	background-color:#84623f;
+	opacity: 0.4;
+}
 .bar{font-family: franklinGothicBook;
 	font-size: 60px; 
 	margin-top: 120px;
@@ -23,16 +26,13 @@ body{
 .mark{
 	position: absolute;
 	top: 15%;
-
-
 }
 .efectodoble {
 	position: relative;
-	height: 300px;
-	width: 350px;
+	height: 200px;
+	width: 250px;
 	margin: 0 auto;
 }
-
 .efectodoble img {
 	position: absolute;
 	left: 0;
@@ -67,3 +67,24 @@ body{
 	font-size: 60px;
 	padding-bottom: 15px;
 }
+
+.efectodoblelarge {
+	position: relative;
+	height: 200px;
+	width: 400px;
+	margin: 0 auto;
+}
+.efectodoblelarge img {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 2px solid #CC6635;
+	transition: opacity 1s ease-in-out;
+	margin: 0 auto;
+}
+
+.efectodoblelarge img.top:hover {
+	opacity: 0;
+	width: 100%;
+	height: 100%;

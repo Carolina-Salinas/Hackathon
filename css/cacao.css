@@ -12,8 +12,8 @@
 .first{
 	width: 960px;
 	height: 1200px;
-	background: url(../img/manteca.png);
-	background-size: cover;
+	background.color:#F2E3C2;
+	
 }
 .first li{
 	display: inline-block;
