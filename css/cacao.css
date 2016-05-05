@@ -40,11 +40,7 @@
 	width: 400px;
 	height: 300px;
 }
-<<<<<<< HEAD
 /*usar para transicion de una imagen a otra poner clase a la imagen*/
-=======
-/*usar para transicion de una imagen a otra poner clase a la imagen
->>>>>>> bba8580d0def0390bfe8e81b025e2be30c80dbe8
 #imagen {
   background: url(ruta_a_la_imagen/imagen1y2.jpg) no-repeat left;
   height: (alto)px;  //el alto original de la imagen1
@@ -55,11 +51,7 @@
   background-position: right
   height: (alto)px;  //el alto original de la imagen2
   width: (ancho)px;  //el ancho original de la imagen2
-<<<<<<< HEAD
  }
-=======
- } */
->>>>>>> bba8580d0def0390bfe8e81b025e2be30c80dbe8
  .flex-container{
 	max-width:80%;
 	width:90%;
