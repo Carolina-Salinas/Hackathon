@@ -14,7 +14,11 @@ body {
 .imagen {
 	position: absolute;
 	width: 30%;
+<<<<<<< .merge_file_a02536
 	left: 425px;
+=======
+	left: 50%;
+>>>>>>> .merge_file_a00200
 }
 .foto-hermano {
 	max-width: 100%;
@@ -26,14 +30,22 @@ body {
 	padding:10px;
 }
 .resena1 {
+<<<<<<< .merge_file_a02536
 	width: 50%;
+=======
+	width: 60%;
+>>>>>>> .merge_file_a00200
 	position: relative;
 	margin-left: 190px;
 	text-align: justify;
 	top: 50px;
 }
 .resena2 {
+<<<<<<< .merge_file_a02536
 	width: 50%;
+=======
+	width: 60%;
+>>>>>>> .merge_file_a00200
 	position: relative;
 	margin-left: 400px;
 	text-align: justify;
@@ -44,7 +56,12 @@ body {
 	position: relative;
 	top: 450px;}
 
+<<<<<<< .merge_file_a02536
 .familia {
 	position: relative;
 	top: 200px;
+=======
+.conra {
+	margin-right: 50px;
+>>>>>>> .merge_file_a00200
 }
