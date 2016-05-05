@@ -5,12 +5,13 @@
 body{
 	background-color: #E4E657;
 }
+.nibs {
+	margin-top: 150px;
+}
 .fondo{
 	background-color:#84623f;
-<<<<<<< HEAD
-=======
 	opacity: 0.4;
->>>>>>> 1ca61667e5c734f6378f891bcada0655bb952415
+
 }
 .bar{font-family: franklinGothicBook;
 	font-size: 60px; 

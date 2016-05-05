@@ -8,7 +8,7 @@ body {
 
 }
 .imagen2 {
-		background-image: url(../img/crepefresauva.jpg);
+		background-image: url(../img/frutascrepe.jpg);
 		background-size: cover;
 		background-position: center;
 }
@@ -18,20 +18,22 @@ body {
 		background-position: center;
 }
 .imagen4 {
-		background-image: url(../img/frutascrepe.jpg);
+		background-image: url(../img/crepefresauva.jpg);
 		background-size: cover;
 		background-position: center;
 }
 .imagen5 {
-		background-image: url(../img/tablaCrocante2.jpg);
+		background-image: url(../img/cracker.jpg);
 		background-size: cover;
 		background-position: center;
 }
 .imagen6 {
-		background-image: url(../img/cracker.jpg);
+		background-image: url(../img/tablaCrocante2.jpg);
 		background-size: cover;
 		background-position: center;
 	}
 .text-upto {
+	font-size: 100px;
+	text-align: right;
 	color: #FFF;
 }
