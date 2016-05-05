@@ -1,4 +1,4 @@
-  *{outline: 1px solid rgba(255,0,0,0.1);}
+/*  *{outline: 1px solid rgba(255,0,0,0.4);}*/
   h1, h2, h3, h4, h5, h6{
   	font-family: franklinGothicDemi;
   }
@@ -6,27 +6,29 @@
   	font-family: franklinGothicBook;
   }
   body{
-  	background: url(../img/cacao/cosechacacao.jpg);
+  	background: url(../img/cacao/cosechacacao.jpg) no-repeat center center fixed;
     background-size: cover;
-    opacity: 0.2;
-    filter: alpha(opacity=10); 
+    background-position: center; 
   }
 
 .first{
-	width: 960px;
-	height: 1200px;
+	width: 100%;
+	height: auto;
 	background.color:#F2E3C2;
+  position: relative;
+  top: 150px;
+
 	
 }
 .first li{
-	display: inline-block;
+	 display: inline-block;
   	width: 40%;
   	display: inline-block;
   	vertical-align: text-top;
   	margin: 5px;
 }
 .first ul{
-	width: 960px;
+	width: 100%;
 }
 
 	/*medio
@@ -43,7 +45,7 @@
 	width: 400px;
 	height: 300px;
 }
-/*usar para transicion de una imagen a otra poner clase a la imagen*/
+/*usar para transicion de una imagen a otra poner clase a la imagen
 #imagen {
   background: url(ruta_a_la_imagen/imagen1y2.jpg) no-repeat left;
   height: (alto)px;  //el alto original de la imagen1
@@ -54,9 +56,9 @@
   background-position: right
   height: (alto)px;  //el alto original de la imagen2
   width: (ancho)px;  //el ancho original de la imagen2
- }
+ }*/
  .flex-container{
-	max-width:80%;
+	max-width:100%;
 	width:90%;
 	list-style-type:none;
 	margin:0 auto;
@@ -70,8 +72,15 @@
 }
  
 .medio{
-	
-	opacity: 0.8;
-    background-color: #E4E657;
-	margin:5px 2px;	
+    background: rgba(0,0,0,0.4);
+}
+span{
+  font-weight: bold;
+  color: #D1CBB2;
+  font-size: 18px;
+  text-align: justify;
+}
+.titulo {
+  text-align: center;
+  font-size: 30px;
 }
