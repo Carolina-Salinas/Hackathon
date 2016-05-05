@@ -1,6 +1,7 @@
 body {
 	background-color: #D1CBB2;
 }
+<<<<<<< HEAD
 
 .primer {
 	position: relative;
@@ -15,10 +16,18 @@ body {
 	position: absolute;
 	width: 30%;
 	left: 50%;
+=======
+.imagen {
+	position: absolute;
+	width: 30%;
+	top: 150px;
+	left: 435px;
+>>>>>>> bba8580d0def0390bfe8e81b025e2be30c80dbe8
 }
 .foto-hermano {
 	max-width: 100%;
 	border-radius: 15px;
+<<<<<<< HEAD
 	position: relative;
 }
 .caja {
@@ -47,3 +56,24 @@ body {
 .conra {
 	margin-right: 50px;
 }
+=======
+}
+.resena1 {
+	width: 17%;
+	position: absolute;
+	top: 230px;
+	left: 160px;
+
+}
+.resena2 {
+	width: 17%;
+	position: absolute;
+	top: 230px;
+	right: 190px;
+}
+.marco {
+	width: 25%;
+	position: absolute;
+	left: 80px;
+	top: 150px;}
+>>>>>>> bba8580d0def0390bfe8e81b025e2be30c80dbe8
