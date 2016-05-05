@@ -19,7 +19,9 @@ p {
 	font-family:franklinGothicBook;
 }
 /* Shortcuts */
-
+h1, h2, h3, h4, h5, h6{font-family:franklinGothicDemi; 
+}
+p{font-family: franklinGothicBook;}
 .pd-0{
 	padding: 0;
 }
