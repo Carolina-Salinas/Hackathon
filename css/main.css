@@ -1,3 +1,6 @@
+body {
+	background-color: #84623f;
+}
 .imagen1 {
 		background-image: url(../img/fulltrufa.jpg);
 		background-size: cover;
@@ -28,4 +31,7 @@
 		background-image: url(../img/cracker.jpg);
 		background-size: cover;
 		background-position: center;
+	}
+.text-upto {
+	color: #FFF;
 }

@@ -12,7 +12,7 @@ ul#ejm li a{
     }
     ul#ejm li a:before{
         position: absolute;
-        color:#A6C746;
+        color:#FFF;
         content:attr(title);
         left:0px;
         top:0px;
@@ -30,7 +30,7 @@ ul#ejm li a{
     z-index: 1001;
     height: 120px;
 } 
-#slider { position: relative; z-index: 5; float: left;height: 699px;}
+#slider { position: relative; z-index: 5; float: left;height: 590px;}
 
 .redes {
 	position: absolute;
@@ -49,7 +49,7 @@ ul#ejm li a{
 	width: 9%;
 	position: absolute;
 	top: 15px;
-	left: 44.3%;
+	left: 45%;
 	border: 3px solid #84623f;
 	border-radius: 100%;
 	padding: 5px;
@@ -71,3 +71,8 @@ ul#ejm li a{
 	font-size: 20px;
 	width: 8%;
 	}
+#footer {
+	height: 80px;
+	width: 100%;
+	background-color: #84623f;
+	position: relative;}
