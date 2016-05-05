@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<favicon></favicon>
 	<title>Akakau</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
@@ -17,7 +16,6 @@
     }
     body {
         background: #eee;
-        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
         font-size: 14px;
         color:#000;
         margin: 0;
@@ -31,8 +29,7 @@
     .swiper-slide {
         text-align: center;
         font-size: 18px;
-        background: #fff;
-        
+         
         /* Center slide text vertically */
         display: -webkit-box;
         display: -ms-flexbox;
@@ -56,20 +53,19 @@
 		
 	<nav>
 		<div>
-			<div class="fondo-claro"></div>
 			<ul class="text-center navbar">
-			<li class="letra-menu"><a class="cafe" href="">Cacao</a></li>
-			<li class="letra-menu"><a class="cafe" href="">Nosotros</a></li>
-			<li class="letra-menu"><a class="cafe" href="">Productos</a></li>
-			<li class="letra-menu"><a href=""></a></li>			
-			<li class="letra-menu"><a class="cafe" href="">Aperitivos</a></li>
-			<li class="letra-menu"><a class="cafe" href="">Catering</a></li>
-			<li class="letra-menu"><a class="cafe" href="">Visitanos</a></li>
+			<li class="letra-menu"><a class="gris" href="cacao.html">Cacao</a></li>
+			<li class="letra-menu"><a class="gris" href="nosotros.html">Nosotros</a></li>
+			<li style="padding-right: 100px;"class="letra-menu"><a class="gris" href="productos.html">Productos</a></li>
+			<li class="letra-menu"><a href="index.html"></a></li>			
+			<li class="letra-menu"><a class="gris" href="aperitivos.html">Aperitivos</a></li>
+			<li class="letra-menu"><a class="gris" href="catering.hmtl">Catering</a></li>
+			<li class="letra-menu"><a class="gris" href="visitanos">Visitanos</a></li>
 		</ul>
 		</div>
 		<div>
 			<ul class="text-center">
-				<li><a href=""><img class="logo" src="img/logo.png"></a></li>
+				<li><a href="index.html"><img class="logo" src="img/logo.png"></a></li>
 			</ul>
 		</div>
 		</nav>
@@ -80,11 +76,11 @@
 	 <!-- Swiper -->
     <div id="slider" class="swiper-container">
         <div class="swiper-wrapper">
-            <div class="swiper-slide"><img class="img-slider" src="img/trufasakakao.jpg"></div>
-            <div class="swiper-slide"><img class="img-slider" src="img/crepefresauva.jpg"></div>
-            <div class="swiper-slide"><img class="img-slider" src="img/taza.jpg"></div>
-            <div class="swiper-slide"><img class="img-slider" src="img/cracker.jpg"></div>
-            <div class="swiper-slide"><img class="img-slider" src="img/eleanor.jpg"></div>
+            <div class="swiper-slide imagen1"></div>
+            <div class="swiper-slide imagen2"></div>
+            <div class="swiper-slide imagen3"></div>
+            <div class="swiper-slide imagen4"></div>
+            <div class="swiper-slide imagen5"></div>
                      
         </div>
         <!-- Add Pagination -->
@@ -104,9 +100,9 @@
         nextButton: '.swiper-button-next',
         prevButton: '.swiper-button-prev',
         paginationClickable: true,
-        spaceBetween: 30,
+        spaceBetween: 0,
         centeredSlides: true,
-        autoplay: 2500,
+        autoplay: 4000,
         autoplayDisableOnInteraction: false
     });
     </script>

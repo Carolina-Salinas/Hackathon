@@ -1,0 +1,49 @@
+body {
+	background-color: #D1CBB2;
+}
+
+.primer {
+	position: relative;
+	margin-top: 150px;
+}
+.subtitulo {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
+.imagen {
+	position: absolute;
+	width: 30%;
+	left: 50%;
+}
+.foto-hermano {
+	max-width: 100%;
+	border-radius: 15px;
+	position: relative;
+}
+.caja {
+	background-color: #84623f;
+	padding:10px;
+}
+.resena1 {
+	width: 60%;
+	position: relative;
+	margin-left: 190px;
+	text-align: justify;
+	top: 50px;
+}
+.resena2 {
+	width: 60%;
+	position: relative;
+	margin-left: 400px;
+	text-align: justify;
+	top: 50px;	
+}
+.fotos {
+	width: 50%;
+	position: relative;
+	top: 450px;}
+
+.conra {
+	margin-right: 50px;
+}

@@ -5,21 +5,13 @@ ul>li {
 a {
 	text-decoration: none;
 }
-
 #arriba {
     position: fixed;
     width: 100%;
     z-index: 1001;
     height: 120px;
 } 
-.fondo-claro {
-	background-color: #FFF;
-    opacity: 0.4;
-    width: 100%;
-    height: 120px;
-    position: absolute;
-}
-#slider { position: relative; z-index: 5; float: left;}
+#slider { position: relative; z-index: 5; float: left;height: 699px;}
 
 .redes {
 	position: absolute;
@@ -39,20 +31,23 @@ a {
 	position: absolute;
 	top: 15px;
 	left: 44.3%;
-	border: 3px solid #E4E657;
+	border: 3px solid #84623f;
 	border-radius: 100%;
+	padding: 5px;
+	background-color: #FFF;
 
 }
 .navbar {
-	border-top: 2px solid #E4E657;
-	border-bottom: 2px solid #E4E657;
+	border-top: 2px solid #84623f;
+	border-bottom: 2px solid #84623f;
 	width: 100%;
 	margin-top: 50px;
 	position: absolute;
+	background-color: #84623f;
 
 }
 .letra-menu {
 	padding: 5px 30px;
 	font-family: franklingGothicDemi;
-	font-size: 25px;
+	font-size: 20px;
 	}
