@@ -6,7 +6,10 @@
   	font-family: franklinGothicBook;
   }
   body{
-  	background: url(../img/fontchoko.jpg);
+  	background: url(../img/cacao/cosechacacao.jpg);
+    background-size: cover;
+    opacity: 0.2;
+    filter: alpha(opacity=10); 
   }
 
 .first{
