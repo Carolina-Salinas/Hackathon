@@ -1,26 +1,50 @@
 body {
 	background-color: #D1CBB2;
 }
+
+.primer {
+	position: relative;
+	margin-top: 150px;
+}
+.subtitulo {
+	padding-bottom: 20px;
+	padding-top: 20px;
+	margin-bottom: 50px;
+}
 .imagen {
 	position: absolute;
 	width: 30%;
-	top: 150px;
-	left: 435px;
+	left: 425px;
 }
 .foto-hermano {
 	max-width: 100%;
 	border-radius: 15px;
+	position: relative;
+}
+.caja {
+	background-color: #84623f;
+	padding:10px;
 }
 .resena1 {
-	width: 17%;
-	position: absolute;
-	top: 230px;
-	left: 160px;
-
+	width: 50%;
+	position: relative;
+	margin-left: 190px;
+	text-align: justify;
+	top: 50px;
 }
 .resena2 {
-	width: 17%;
-	position: absolute;
-	top: 230px;
-	right: 190px;
+	width: 50%;
+	position: relative;
+	margin-left: 400px;
+	text-align: justify;
+	top: 50px;	
+}
+.fotos {
+	width: 50%;
+	position: relative;
+	top: 450px;}
+
+.familia {
+	position: relative;
+	top: 200px;
 }
