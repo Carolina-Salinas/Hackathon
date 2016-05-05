@@ -1,4 +1,25 @@
 
+body{
+	background-color:#E4E657
+}
+
+.bar{font-family: franklinGothicBook;
+	font-size: 60px; 
+	margin-top: 120px;
+	padding-top: 80px;
+	padding-bottom: 15px;
+}
+#productos{background-color: #D1CBB2;
+
+}
+.titulos img{
+	width: 35%;
+	height: 35%;
+	text-align: center;
+	position: absolute;
+	top: 120px;
+	left: 400px;
+}
 .efectodoble {
 	position: relative;
 	height: 300px;
@@ -11,6 +32,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
+	border: 2px solid #CC6635;
 	transition: opacity 1s ease-in-out;
 }
 
@@ -24,8 +46,8 @@
 	width:90%;
 	list-style-type:none;
 	margin:0 auto;
-	padding:30px;
-	margin-top: 50px;
+	padding:20px;
+	margin-top: 30px;
 	/*background-color:#E4E657;*/
 	justify-content: space-around;
 	
