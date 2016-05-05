@@ -1,5 +1,5 @@
 .imagen1 {
-		background-image: url(../img/cracker.jpg);
+		background-image: url(../img/fulltrufa.jpg);
 		background-size: cover;
 		background-position: center;
 
@@ -20,5 +20,12 @@
 		background-position: center;
 }
 .imagen5 {
-		background-image: url();
+		background-image: url(../img/tablaCrocante2.jpg);
+		background-size: cover;
+		background-position: center;
+}
+.imagen6 {
+		background-image: url(../img/cracker.jpg);
+		background-size: cover;
+		background-position: center;
 }

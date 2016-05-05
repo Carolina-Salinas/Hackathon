@@ -1,16 +1,8 @@
- *{
-	outline:1px solid rgba(255,0,0,0.1);
-} */
-
 body{
 	background-color: #E4E657;
 }
 .fondo{
 	background-color:#84623f;
-<<<<<<< HEAD
-=======
-	opacity: 0.4;
->>>>>>> 1ca61667e5c734f6378f891bcada0655bb952415
 }
 .bar{font-family: franklinGothicBook;
 	font-size: 60px; 
@@ -20,6 +12,7 @@ body{
 #productos{background-color: #D1CBB2;
 	margin-bottom: 20%;
 }
+
 .marck, .marck1{
 	width: 35%;
 	height: 35%;
