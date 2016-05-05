@@ -1,0 +1,74 @@
+  *{outline: 1px solid rgba(255,0,0,0.1);}
+  h1, h2, h3, h4, h5, h6{
+  	font-family: franklinGothicDemi;
+  }
+  p{
+  	font-family: franklinGothicBook;
+  }
+  body{
+  	background: url(../img/fontchoko.jpg);
+  }
+
+.first{
+	width: 960px;
+	height: 1200px;
+	background: url(../img/manteca.png);
+	background-size: cover;
+}
+.first li{
+	display: inline-block;
+  	width: 40%;
+  	display: inline-block;
+  	vertical-align: text-top;
+  	margin: 5px;
+}
+.first ul{
+	width: 960px;
+}
+
+	/*medio
+.medio{
+    width: 100%;
+    height: 320px;
+    z-index: 1000;
+    opacity: 0.8;
+    background-color: #E4E657;
+
+}
+*/
+#cacao img{
+	width: 400px;
+	height: 300px;
+}
+/*usar para transicion de una imagen a otra poner clase a la imagen
+#imagen {
+  background: url(ruta_a_la_imagen/imagen1y2.jpg) no-repeat left;
+  height: (alto)px;  //el alto original de la imagen1
+  width: (ancho)px;  //el ancho original de la imagen1
+ }
+ 
+#imagen:hover {
+  background-position: right
+  height: (alto)px;  //el alto original de la imagen2
+  width: (ancho)px;  //el ancho original de la imagen2
+ } */
+ .flex-container{
+	max-width:80%;
+	width:90%;
+	list-style-type:none;
+	margin:0 auto;
+	padding:20px;
+	/*background-color:#E4E657;*/
+	justify-content: space-around;
+	
+	/*Flexbox setup*/
+	display: flex;
+	border-radius: 20px solid #CC6635;
+}
+ 
+.medio{
+	
+	opacity: 0.8;
+    background-color: #E4E657;
+	margin:5px 2px;	
+}

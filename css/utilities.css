@@ -1,0 +1,77 @@
+@font-face{
+	font-family: franklinGothicBook;
+	src: url(../fonts/FRABK.ttf);
+}
+@font-face{
+	font-family:franklinGothicDemi;
+	src: url(../fonts/Franklin-Gothic-Demi-Cond-Regular.ttf);
+}
+@font-face{
+	font-family: Monofur;
+	src: url(../fonts/monof55.ttf);
+}
+
+/* Shortcuts */
+
+.pd-0{
+	padding: 0;
+}
+.pt-5{
+	padding-top: 5%;
+}
+.pb-5{
+	padding-bottom: 5%;
+}
+.mg-0{
+	margin: 0;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.text-center{
+	text-align: center;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.cafe {
+	color:#514134;
+}
+.cafe-claro{
+	color: #84623f;
+}
+.gris{
+	color: #D1CBB2;
+}
+.ladrillo{
+ 	color: #CC6635;
+}
+.naranja{
+	color: #F29E21;
+}
+.lima {
+	color: #E4E657;
+}
+.limon {
+	color: #A6C746;
+}
+.verde{
+	color: #61b380;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
