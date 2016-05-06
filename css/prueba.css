@@ -1,0 +1,19 @@
+ul#ejm1 li a{
+        position: relative;
+        color:#ED1C24;
+        font-weight:bold;
+    }
+    ul#ejm1 li a:before{
+        position: absolute;
+        color:#005496;
+        content:attr(title);
+        left:0px;
+        top:0px;
+        max-width:0%;
+        white-space: nowrap;
+        overflow:hidden;
+        transition: max-width 0.3s linear
+    }
+    ul#ejm1 li a:hover:before{
+        max-width:100%;
+    }

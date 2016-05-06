@@ -5,13 +5,32 @@ ul>li {
 a {
 	text-decoration: none;
 }
+ul#ejm li a{
+        position: relative;
+        color:#D1CBB2;
+        font-weight:bold;
+    }
+    ul#ejm li a:before{
+        position: absolute;
+        color:#FFF;
+        content:attr(title);
+        left:0px;
+        top:0px;
+        max-width:0%;
+        white-space: nowrap;
+        overflow:hidden;
+        transition: max-width 0.3s linear
+    }
+    ul#ejm li a:hover:before{
+        max-width:100%;
+    }
 #arriba {
     position: fixed;
     width: 100%;
     z-index: 1001;
     height: 120px;
 } 
-#slider { position: relative; z-index: 5; float: left;height: 699px;}
+#slider { position: relative; z-index: 5; float: left;height: 590px;}
 
 .redes {
 	position: absolute;
@@ -30,7 +49,7 @@ a {
 	width: 9%;
 	position: absolute;
 	top: 15px;
-	left: 44.3%;
+	left: 45%;
 	border: 3px solid #84623f;
 	border-radius: 100%;
 	padding: 5px;
@@ -47,7 +66,13 @@ a {
 
 }
 .letra-menu {
-	padding: 5px 30px;
+	padding: 5px 0px;
 	font-family: franklingGothicDemi;
 	font-size: 20px;
+	width: 8%;
 	}
+#footer {
+	height: 80px;
+	width: 100%;
+	background-color: #84623f;
+	position: relative;}

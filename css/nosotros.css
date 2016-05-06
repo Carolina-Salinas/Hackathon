@@ -2,6 +2,7 @@ body {
 	background-color: #D1CBB2;
 }
 
+
 .primer {
 	position: relative;
 	margin-top: 150px;
@@ -11,10 +12,21 @@ body {
 	padding-top: 20px;
 	margin-bottom: 50px;
 }
+.fondo {
+	background-color: #84623f;
+	opacity: 0.4;
+	width: 100%;
+	height: 225px;
+	position: relative;
+	border-radius:10%;
+}
+.texto {
+	position: relative;
+}
 .imagen {
 	position: absolute;
 	width: 30%;
-	left: 50%;
+	left: 30%;
 }
 .foto-hermano {
 	max-width: 100%;
@@ -25,25 +37,18 @@ body {
 	background-color: #84623f;
 	padding:10px;
 }
-.resena1 {
-	width: 60%;
-	position: relative;
-	margin-left: 190px;
-	text-align: justify;
-	top: 50px;
+.lista {
+	list-style-type: none;
+	width: 20%;
+	
 }
-.resena2 {
-	width: 60%;
-	position: relative;
-	margin-left: 400px;
-	text-align: justify;
-	top: 50px;	
+.1 {
+	width: 10%;
+}
+.2 {
+	width: 10%;
 }
 .fotos {
 	width: 50%;
 	position: relative;
-	top: 450px;}
-
-.conra {
-	margin-right: 50px;
-}
+	}
