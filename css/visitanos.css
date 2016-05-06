@@ -1,0 +1,65 @@
+/*  *{outline: 1px solid rgba(255,0,0,0.4);}*/
+  h1, h2, h3, h4, h5, h6{
+  	font-family: franklinGothicDemi;
+  }
+  p{
+  	font-family: franklinGothicBook;
+  }
+  body{
+  	background: url(../img/visitanos/localdifu.jpg) no-repeat center center fixed;
+    background-size: cover;
+    background-position: center; 
+  }
+
+.first{
+	width: 100%;
+	height: auto;
+	background.color:#F2E3C2;
+  position: relative;
+  top: 150px;
+
+	
+}
+.first li{
+	 display: inline-block;
+  	width: 40%;
+  	display: inline-block;
+  	vertical-align: text-top;
+  	margin: 5px;
+}
+.first ul{
+	width: 100%;
+}
+
+#cacao img{
+	width: 400px;
+	height: 300px;
+}
+ 
+ .flex-container{
+	max-width:100%;
+	width:90%;
+	list-style-type:none;
+	margin:0 auto;
+	padding:20px;
+	/*background-color:#E4E657;*/
+	justify-content: space-around;
+	
+	/*Flexbox setup*/
+	display: flex;
+	border-radius: 20px solid #CC6635;
+}
+ 
+.medio{
+    background: rgba(0,0,0,0.4);
+}
+span{
+  font-weight: bold;
+  color: #D1CBB2;
+  font-size: 18px;
+  text-align: justify;
+}
+.titulo {
+  text-align: center;
+  font-size: 30px;
+}
